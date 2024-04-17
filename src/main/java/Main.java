@@ -1,17 +1,11 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
-
 public class Main {
-  public static void main(String[] args) {
-   char znak='*';
-    for (int i=0; i<5; i++) {
-      
+    public static void main(String[] args) {
+        char znak = '*';
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print(znak + " ");
+            }
+            System.out.println();
+        }
     }
-  }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
 }
